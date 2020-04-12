@@ -8,22 +8,32 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Your own stylesheet -->
+<!-- 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <div class="container d-flex align-items-center h-100">
       <div class="row">
-        <header class="text-center col-12">
-          <h1 class="text-uppercase"><strong>WELCOME TO THE ESSENCE OF A SANE MIND</strong></h1>
+        <header class="main col-12">
+          <div id="display-text">
+            <p id="welcome-text">Welcome to</p>
+            <p id="website-name">ESSENCE of a <br> SANE MIND</p>
+          </div>
         </header>
-        <div class="buffer col-12"></div>
-        <section class="text-center col-12">
-          <hr>
-          <a href="https://mailchi.mp/0de4a1354fe0/esm2020"><button type="button" class="btn btn-light">   LETS PROCEED</button></a>        </section>
+        <div id="container">
+          <a href="https://mailchi.mp/0de4a1354fe0/esm2020">
+            <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">Learn More</span>
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   </body>
