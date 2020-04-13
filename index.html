@@ -1,40 +1,59 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Startup</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html lang="en">
+<head>
+  <title>Essence of Sane Mind</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  
+</head>
+<body>
+  <div class="open">
+      <div class="layer"></div>
+      <div class="layer"></div>
+  </div>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap" rel="stylesheet">
-
-<!-- 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <div class="container d-flex align-items-center h-100">
-      <div class="row">
-        <header class="main col-12">
-          <div id="display-text">
-            <p id="welcome-text">Welcome to</p>
-            <p id="website-name">ESSENCE of a <br> SANE MIND</p>
-          </div>
-        </header>
-        <div id="container">
-          <a href="https://mailchi.mp/0de4a1354fe0/esm2020">
-            <button class="learn-more">
-              <span class="circle" aria-hidden="true">
-                <span class="icon arrow"></span>
-              </span>
-              <span class="button-text">Learn More</span>
-            </button>
-          </a>
-        </div>
+<nav>
+  <ul class="nav lf">
+    <li>
+      <a href="#"><b>Essence of Sane Mind</b></a>
+    </li>
+    <ul class="drop" onclick="dropdown()">
+      <li ><i class="fas fa-stream"></i></li>
+      <div class="down" id="down">
+        <a href="#">Home</a>
+        <a href="#">Article</a>
+        <a href="./about.html">About</a>
       </div>
-    </div>
-  </body>
+    </ul>
+  </ul>
+  <ul class="nav ri">
+    <li>
+      <i class="fas fa-home"></i>
+      <a href="./index.html">Home</a>
+    </li>
+    <li>
+      <i class="fas fa-edit"></i>
+      <a href="#">Article</a>
+    </li>
+    <li>
+      <i class="fas fa-user"></i>
+      <a href="./about.html">About</a>
+    </li>
+  </ul>
+</nav>
+<div class="container">
+  <br><br><br>
+  <h1>Welcome To</h1>
+  <h2>Essence of Sane Mind</h2>
+</div>
+
+<script type="text/javascript" src="./script.js"></script>
+</body>
 </html>
+
